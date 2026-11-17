@@ -223,7 +223,7 @@ bind_optional_symbols(
 bind_optional_symbols(
     globals(),
     "._ltnn",
-    ["scLTNN"],
+    ["scLTNN", "plot_origin_tesmination", "find_related_gene"],
     package=__name__,
     feature="omicverse.single.scLTNN",
     dependencies=("torch",),
